@@ -32,7 +32,7 @@ function setup() {
 }
 
 function draw() {
-    Image(video, 0, 0, 480, 380);
+    image(video, 0, 0, 480, 380);
     if(status != "")
     {
         objectDetector.detect(video, gotResult);
